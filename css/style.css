@@ -1282,6 +1282,8 @@ header p {
   padding: 0.25em;
   color: #fff;
   font-weight: lighter;
+  -webkit-animation: slide-in 250ms 0ms cubic-bezier(0, -0.53, 0, 1.4) forwards;
+  animation: slide-in 250ms 0ms cubic-bezier(0, -0.53, 0, 1.4) forwards;
 }
 
 footer {
