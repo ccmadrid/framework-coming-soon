@@ -36,5 +36,6 @@
 @mixin multi-line($padding){
 	padding: $padding 0;
 	-moz-box-shadow: $padding 0 0 $white, -$padding 0 0 $white;
+	box-decoration-break: clone;
 	box-shadow: $padding 0 0 $white, -$padding 0 0 $white;
 }
