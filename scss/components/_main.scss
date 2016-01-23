@@ -70,7 +70,7 @@ footer{
 		display: inline;
 		background-color: $white;
 		margin: 0;
-		padding: 0.25em;
+		@include multi-line($text-line-pad);
 	}
 
 	.title{
@@ -89,7 +89,7 @@ footer{
 
 	p{
 		line-height: 2.5em;
-		padding: 0.25em;
+
 	}
 
 	.date{

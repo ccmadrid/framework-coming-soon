@@ -1310,7 +1310,8 @@ footer a {
   display: inline;
   background-color: #fff;
   margin: 0;
-  padding: 0.25em;
+  padding: 0.5em 0;
+  box-shadow: 0.5em 0 0 #fff, -0.5em 0 0 #fff;
 }
 
 .main .title {
@@ -1330,7 +1331,6 @@ footer a {
 
 .main p {
   line-height: 2.5em;
-  padding: 0.25em;
 }
 
 .main .date {
