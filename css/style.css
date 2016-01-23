@@ -1253,9 +1253,9 @@ html {
   font-family: Futura, Arial, sans-serif;
   background-color: #aaa;
   transition: all 250ms ease-in-out;
-  background-image: url("img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("img/dots.png"), url("img/background.jpg");
+  background-repeat: repeat, no-repeat;
+  background-size: 2em 2em, cover;
   background-position: center;
 }
 
